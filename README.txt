@@ -32,5 +32,9 @@ Note if you want to use NameNode as a DataNode give NameNode ipaddress and hostn
 192.168.0.2 tony1.com
 192.168.0.3 tony2.com
 
+Set the environment path and hadoop home in /etc/environment
+In path : /usr/local/had/hadoop/bin:/usr/local/hadoop/sbin
+HADOOP_HOME="/usr/local/had/hadoop"
+
 
 If hav any problem send mail to tony.ntw@gmail.com
