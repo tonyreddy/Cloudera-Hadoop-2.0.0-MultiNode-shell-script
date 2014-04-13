@@ -5,7 +5,9 @@ Hadoop MultiNode Install shell script
 Cloudera’s Distribution including Apache Hadoop 4.4.0
 Yarn version MultiNode Installation Shell script
 
-Pleace download this two script and type Bellow command in your ubuntu michine:
+Pleace download this two script of Multinode_Install.sh and Slave_Install.sh.
+
+And type Bellow command in your ubuntu michine:
 
 bash Multinode_Install.sh
 
