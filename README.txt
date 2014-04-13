@@ -7,6 +7,14 @@ Yarn version MultiNode Installation Shell script
 
 Pleace download this two script of Multinode_Install.sh and Slave_Install.sh.
 
+Just do before start run the script run this commands in namenode bellow:
+
+ssh-keygen -t rsa
+ssh-copy-id -i  ~/.ssh/id_rsa.pub $USER@tony.com
+ssh-copy-id -i  ~/.ssh/id_rsa.pub $USER@tony1.com
+ssh-copy-id -i  ~/.ssh/id_rsa.pub $USER@tony2.com
+
+
 And type Bellow command in your ubuntu michine:
 
 bash Multinode_Install.sh
